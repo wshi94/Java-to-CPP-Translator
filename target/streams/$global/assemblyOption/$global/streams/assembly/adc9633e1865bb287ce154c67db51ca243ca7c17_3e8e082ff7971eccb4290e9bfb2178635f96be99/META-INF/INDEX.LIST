@@ -1,0 +1,10 @@
+JarIndex-Version: 1.0
+
+javancss-32.53.jar
+javancss
+javancss/parser
+javancss/parser/debug
+javancss/parser/java15
+javancss/parser/java15/debug
+javancss/test
+

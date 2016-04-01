@@ -1,0 +1,75 @@
+
+input 14:
+        void __A::__init (A __this) {
+         __this->some = (A) __rt::null();
+         }
+
+         need to init every undeclared field as null
+
+
+           __rt::checkNotNull(other);
+
+           print this in main
+
+input 16:
+    Throw ClassCastException
+
+input 17:
+    C++ does not allow a variable and a method to be the same name whereas Java does
+    Also, nested CallExpression here which doesn't work
+
+input 23:
+    We need to somehow convert main char* argv[] into a Java string
+
+input 27:
+    exception arrayIndexOutOfBoundsException
+
+
+--------- Multidimensional Array ---------
+input 30:
+    Create multidimensional array
+
+input 31:
+    Nested for loop
+    length of array || ex. array.length
+
+
+------------ Method Overloading ------------
+input 32:
+    Overload 6 methods || 1 with return type int
+                       || 5 with void
+
+input 33:
+    Same as input 32 but all methods are STATIC
+
+input 34:
+    Add 2 variables as arguments || ex. a.foo(var + var)
+
+input 35:
+    Same as input 34 but Class A remove one method that takes int as arg
+
+input 36:
+    Lots of objects as args
+    Lots of casting as Object
+
+
+------------ Method Overloading AND Overriding ------------
+input 37:
+    Same as input 36 but Class B extends A
+    Class B has no methods so it inherits everything from A
+    Main calls b.foo but only Class A's implementation
+
+input 38:
+    Same as input 37 but Class B OVERRIDES ALL the methods in Class A
+
+input 39:
+    Same as input 38 but line 18 REMOVED a CASTING as Object
+
+input 40:
+    Same as input 39 but Class C EXTENDS A and C has NO overriding
+
+input 41:
+    Same as input 40 but Class has ONE method that might override
+
+input 42:
+    Nested Call Expression and shit

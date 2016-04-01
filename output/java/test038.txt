@@ -1,0 +1,3 @@
+B.m(Object, Object)
+B.m(B, Object)
+B.m(Object, B)

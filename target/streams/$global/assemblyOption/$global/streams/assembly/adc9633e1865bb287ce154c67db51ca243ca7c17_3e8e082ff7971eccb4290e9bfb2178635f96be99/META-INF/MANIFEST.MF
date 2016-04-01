@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: clemens
+Build-Jdk: 1.5.0_16
+Specification-Title: JavaNCSS
+Specification-Version: 32.53
+Specification-Vendor: Chr. Clemens Lee and companions
+Implementation-Title: JavaNCSS
+Implementation-Vendor-Id: org.codehaus.javancss
+Implementation-Vendor: Chr. Clemens Lee and companions
+Main-Class: javancss.Main
+Implementation-Version: 32.53 2009/05/31 23:39:39
+Class-Path: ccl.jar jhbasic.jar
+

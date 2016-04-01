@@ -1,0 +1,185 @@
+In file included from output/main.cpp:4:
+output/output.h:54:11: error: duplicate member 'm'
+      A (*m)(A, A);
+          ^
+output/output.h:53:14: note: previous declaration is here
+      void (*m)(A);
+             ^
+output/output.h:62:14: error: address of overloaded function 'm' does not match required type 'void (inputs2::test050::__A *)'
+          m(&__A::m),
+             ^~~~~~
+output/output.h:36:19: note: candidate function has different number of parameters (expected 1 but has 0)
+      static void m();
+                  ^
+output/output.h:37:16: note: candidate function has different return type ('void' expected but has 'A' (aka 'inputs2::test050::__A *'))
+      static A m(A);
+               ^
+output/output.h:63:14: error: address of overloaded function 'm' does not match required type 'void (inputs2::test050::__A *)'
+          m(&__A::m)
+             ^~~~~~
+output/output.h:36:19: note: candidate function has different number of parameters (expected 1 but has 0)
+      static void m();
+                  ^
+output/output.h:37:16: note: candidate function has different return type ('void' expected but has 'A' (aka 'inputs2::test050::__A *'))
+      static A m(A);
+               ^
+output/output.h:77:16: error: functions that differ only in their return type cannot be overloaded
+      static A m(B);
+             ~ ^
+output/output.h:76:16: note: previous declaration is here
+      static C m(B);
+             ~ ^
+output/output.h:94:11: error: duplicate member 'm'
+      C (*m)(B, B);
+          ^
+output/output.h:93:14: note: previous declaration is here
+      void (*m)(B);
+             ^
+output/output.h:95:11: error: duplicate member 'm'
+      A (*m)(B, A);
+          ^
+output/output.h:93:14: note: previous declaration is here
+      void (*m)(B);
+             ^
+output/output.h:103:14: error: address of overloaded function 'm' does not match required type 'void (inputs2::test050::__B *)'
+          m(&__B::m),
+             ^~~~~~
+output/output.h:75:19: note: candidate function has different number of parameters (expected 1 but has 0)
+      static void m();
+                  ^
+output/output.h:76:16: note: candidate function has different return type ('void' expected but has 'C' (aka 'inputs2::test050::__C *'))
+      static C m(B);
+               ^
+output/output.h:104:14: error: address of overloaded function 'm' does not match required type 'void (inputs2::test050::__B *)'
+          m(&__B::m),
+             ^~~~~~
+output/output.h:75:19: note: candidate function has different number of parameters (expected 1 but has 0)
+      static void m();
+                  ^
+output/output.h:76:16: note: candidate function has different return type ('void' expected but has 'C' (aka 'inputs2::test050::__C *'))
+      static C m(B);
+               ^
+output/output.h:105:14: error: address of overloaded function 'm' does not match required type 'void (inputs2::test050::__B *)'
+          m(&__B::m)
+             ^~~~~~
+output/output.h:75:19: note: candidate function has different number of parameters (expected 1 but has 0)
+      static void m();
+                  ^
+output/output.h:76:16: note: candidate function has different return type ('void' expected but has 'C' (aka 'inputs2::test050::__C *'))
+      static C m(B);
+               ^
+output/output.h:141:11: error: cannot initialize a member subobject of type 'void (*)(C)' with an rvalue of type 'void (*)()': different number of parameters (1 vs 0)
+          m(&__C::m)
+          ^ ~~~~~~~
+output/main.cpp:17:3: error: expected expression
+  ->m(->__vptr->m());
+  ^
+11 errors generated.
+In file included from output/output.cpp:1:
+output/output.h:54:11: error: duplicate member 'm'
+      A (*m)(A, A);
+          ^
+output/output.h:53:14: note: previous declaration is here
+      void (*m)(A);
+             ^
+output/output.h:62:14: error: address of overloaded function 'm' does not match required type 'void (inputs2::test050::__A *)'
+          m(&__A::m),
+             ^~~~~~
+output/output.h:36:19: note: candidate function has different number of parameters (expected 1 but has 0)
+      static void m();
+                  ^
+output/output.h:37:16: note: candidate function has different return type ('void' expected but has 'A' (aka 'inputs2::test050::__A *'))
+      static A m(A);
+               ^
+output/output.h:63:14: error: address of overloaded function 'm' does not match required type 'void (inputs2::test050::__A *)'
+          m(&__A::m)
+             ^~~~~~
+output/output.h:36:19: note: candidate function has different number of parameters (expected 1 but has 0)
+      static void m();
+                  ^
+output/output.h:37:16: note: candidate function has different return type ('void' expected but has 'A' (aka 'inputs2::test050::__A *'))
+      static A m(A);
+               ^
+output/output.h:77:16: error: functions that differ only in their return type cannot be overloaded
+      static A m(B);
+             ~ ^
+output/output.h:76:16: note: previous declaration is here
+      static C m(B);
+             ~ ^
+output/output.h:94:11: error: duplicate member 'm'
+      C (*m)(B, B);
+          ^
+output/output.h:93:14: note: previous declaration is here
+      void (*m)(B);
+             ^
+output/output.h:95:11: error: duplicate member 'm'
+      A (*m)(B, A);
+          ^
+output/output.h:93:14: note: previous declaration is here
+      void (*m)(B);
+             ^
+output/output.h:103:14: error: address of overloaded function 'm' does not match required type 'void (inputs2::test050::__B *)'
+          m(&__B::m),
+             ^~~~~~
+output/output.h:75:19: note: candidate function has different number of parameters (expected 1 but has 0)
+      static void m();
+                  ^
+output/output.h:76:16: note: candidate function has different return type ('void' expected but has 'C' (aka 'inputs2::test050::__C *'))
+      static C m(B);
+               ^
+output/output.h:104:14: error: address of overloaded function 'm' does not match required type 'void (inputs2::test050::__B *)'
+          m(&__B::m),
+             ^~~~~~
+output/output.h:75:19: note: candidate function has different number of parameters (expected 1 but has 0)
+      static void m();
+                  ^
+output/output.h:76:16: note: candidate function has different return type ('void' expected but has 'C' (aka 'inputs2::test050::__C *'))
+      static C m(B);
+               ^
+output/output.h:105:14: error: address of overloaded function 'm' does not match required type 'void (inputs2::test050::__B *)'
+          m(&__B::m)
+             ^~~~~~
+output/output.h:75:19: note: candidate function has different number of parameters (expected 1 but has 0)
+      static void m();
+                  ^
+output/output.h:76:16: note: candidate function has different return type ('void' expected but has 'C' (aka 'inputs2::test050::__C *'))
+      static C m(B);
+               ^
+output/output.h:141:11: error: cannot initialize a member subobject of type 'void (*)(C)' with an rvalue of type 'void (*)()': different number of parameters (1 vs 0)
+          m(&__C::m)
+          ^ ~~~~~~~
+output/output.cpp:19:15: error: return type of out-of-line definition of 'inputs2::test050::__A::m' differs from that in the declaration
+    void __A::m(A __this) {
+    ~~~~      ^
+output/output.h:37:16: note: previous declaration is here
+      static A m(A);
+             ~ ^
+output/output.cpp:20:23: error: expected unqualified-id
+      cout << __this->"A.m()" << endl;
+                      ^
+output/output.cpp:23:12: error: out-of-line definition of 'm' does not match any declaration in 'inputs2::test050::__A'
+    A __A::m(A __this, A a) {
+           ^
+output/output.cpp:24:23: error: expected unqualified-id
+      cout << __this->"A.m(A)" << endl;
+                      ^
+output/output.cpp:25:22: error: no member named 'a' in 'inputs2::test050::__A'
+      return __this->a;
+             ~~~~~~  ^
+output/output.cpp:47:15: error: return type of out-of-line definition of 'inputs2::test050::__B::m' differs from that in the declaration
+    void __B::m(B __this) {
+    ~~~~      ^
+output/output.h:76:16: note: previous declaration is here
+      static C m(B);
+             ~ ^
+output/output.cpp:48:23: error: expected unqualified-id
+      cout << __this->"B.m()" << endl;
+                      ^
+output/output.cpp:51:12: error: out-of-line definition of 'm' does not match any declaration in 'inputs2::test050::__B'
+    C __B::m(B __this, B b) {
+           ^
+output/output.cpp:52:23: error: expected unqualified-id
+      cout << __this->"B.m(B)" << endl;
+                      ^
+fatal error: too many errors emitted, stopping now [-ferror-limit=]
+20 errors generated.

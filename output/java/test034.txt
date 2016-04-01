@@ -1,0 +1,3 @@
+A.m(byte)
+A.m(int)
+A.m(double)

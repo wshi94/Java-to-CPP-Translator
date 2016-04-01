@@ -1,0 +1,30 @@
+[0m[[0mdebug[0m] [0mInvalidating /Users/Will/Documents/Computer Science/Repositories/Object Oriented Programming/translator/translator-sea-lions/target/scala-2.11/test-classes/edu/nyu/oop/CppMainPrinter.class: stamp changed from lastModified(1450650138000) to lastModified(1450725148000)[0m
+[0m[[0mdebug[0m] [0mInvalidating /Users/Will/Documents/Computer Science/Repositories/Object Oriented Programming/translator/translator-sea-lions/target/scala-2.11/test-classes/edu/nyu/oop/Translator.class: stamp changed from lastModified(1450650139000) to lastModified(1450725148000)[0m
+[0m[[0mdebug[0m] [0mInvalidating /Users/Will/Documents/Computer Science/Repositories/Object Oriented Programming/translator/translator-sea-lions/target/scala-2.11/test-classes/edu/nyu/oop/CppFilePrinter.class: stamp changed from lastModified(1450656791000) to lastModified(1450725147000)[0m
+[0m[[0mdebug[0m] [0mInvalidating /Users/Will/Documents/Computer Science/Repositories/Object Oriented Programming/translator/translator-sea-lions/target/scala-2.11/test-classes/inputs/test018/A.class: stamp changed from lastModified(1450658362000) to lastModified(1450725147000)[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mInitial source changes: [0m
+[0m[[0mdebug[0m] [0m	removed:Set()[0m
+[0m[[0mdebug[0m] [0m	added: Set()[0m
+[0m[[0mdebug[0m] [0m	modified: Set()[0m
+[0m[[0mdebug[0m] [0mRemoved products: Set()[0m
+[0m[[0mdebug[0m] [0mExternal API changes: API Changes: Set()[0m
+[0m[[0mdebug[0m] [0mModified binary dependencies: Set(/Users/Will/Documents/Computer Science/Repositories/Object Oriented Programming/translator/translator-sea-lions/target/scala-2.11/test-classes/edu/nyu/oop/CppMainPrinter.class, /Users/Will/Documents/Computer Science/Repositories/Object Oriented Programming/translator/translator-sea-lions/target/scala-2.11/test-classes/edu/nyu/oop/Translator.class, /Users/Will/Documents/Computer Science/Repositories/Object Oriented Programming/translator/translator-sea-lions/target/scala-2.11/test-classes/edu/nyu/oop/CppFilePrinter.class, /Users/Will/Documents/Computer Science/Repositories/Object Oriented Programming/translator/translator-sea-lions/target/scala-2.11/test-classes/inputs/test018/A.class)[0m
+[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set()[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mSources indirectly invalidated by:[0m
+[0m[[0mdebug[0m] [0m	product: Set()[0m
+[0m[[0mdebug[0m] [0m	binary dep: Set(/Users/Will/Documents/Computer Science/Repositories/Object Oriented Programming/translator/translator-sea-lions/src/test/java/inputs/test018/Test018.java, /Users/Will/Documents/Computer Science/Repositories/Object Oriented Programming/translator/translator-sea-lions/src/test/java/edu/nyu/oop/TranslatorTest.java, /Users/Will/Documents/Computer Science/Repositories/Object Oriented Programming/translator/translator-sea-lions/src/test/java/edu/nyu/oop/CppFilePrinterTest.java, /Users/Will/Documents/Computer Science/Repositories/Object Oriented Programming/translator/translator-sea-lions/src/test/java/edu/nyu/oop/SymbolTableBuilderTest.java, /Users/Will/Documents/Computer Science/Repositories/Object Oriented Programming/translator/translator-sea-lions/src/test/java/edu/nyu/oop/CppMainPrinterTest.java)[0m
+[0m[[0mdebug[0m] [0m	external source: Set()[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/Users/Will/Documents/Computer Science/Repositories/Object Oriented Programming/translator/translator-sea-lions/src/test/java/inputs/test018/Test018.java, /Users/Will/Documents/Computer Science/Repositories/Object Oriented Programming/translator/translator-sea-lions/src/test/java/edu/nyu/oop/TranslatorTest.java, /Users/Will/Documents/Computer Science/Repositories/Object Oriented Programming/translator/translator-sea-lions/src/test/java/edu/nyu/oop/CppFilePrinterTest.java, /Users/Will/Documents/Computer Science/Repositories/Object Oriented Programming/translator/translator-sea-lions/src/test/java/edu/nyu/oop/SymbolTableBuilderTest.java, /Users/Will/Documents/Computer Science/Repositories/Object Oriented Programming/translator/translator-sea-lions/src/test/java/edu/nyu/oop/CppMainPrinterTest.java)[0m
+[0m[[0minfo[0m] [0mCompiling 5 Java sources to /Users/Will/Documents/Computer Science/Repositories/Object Oriented Programming/translator/translator-sea-lions/target/scala-2.11/test-classes...[0m
+[0m[[0mdebug[0m] [0mAttempting to call com.sun.tools.javac.api.JavacTool@7957f38c directly...[0m
+[0m[[0mdebug[0m] [0mJava compilation took 0.047936 s[0m
+[0m[[0mdebug[0m] [0mJava analysis took 0.043118 s[0m
+[0m[[0mdebug[0m] [0mJava compile + analysis took 0.103516 s[0m
+[0m[[0mdebug[0m] [0mNew invalidations:[0m
+[0m[[0mdebug[0m] [0m	Set()[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set()[0m
+[0m[[0mdebug[0m] [0mPreviously invalidated, but (transitively) depend on new invalidations:[0m
+[0m[[0mdebug[0m] [0m	Set()[0m
+[0m[[0mdebug[0m] [0mAll newly invalidated sources after taking into account (previously) recompiled sources:Set()[0m

@@ -1,0 +1,30 @@
+TopInheritance class
+    Header Declaration
+        Class name
+        Data layout
+            Field Declaration
+                Modifiers
+                Field type
+                Field name
+                Declarators
+            Constructor
+                Class name
+                Parameters
+            Function Declaration
+                Modifiers
+                Return type
+                Name
+                Parameters
+                    Parameter type
+
+        VTable
+            Function declaration
+                Modifiers
+                Return type
+                Function name
+                Parameters
+    Inheriting class
+        Header Declaration
+            Class name
+            Data Layout
+            VTable

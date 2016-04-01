@@ -1,0 +1,95 @@
+CompilationUnit
+	NamespaceDeclaration
+		QualifiedIdentifier
+			"namespace"
+	ClassDeclaration
+		Modifiers
+		"class name"
+		null?
+		Extension
+			Type
+				QualifiedIdentifier
+					"super class"
+				null
+		null?
+		ClassBody
+			FunctionDeclaration
+				Modifiers
+					Modifier
+						"public/private"
+					Modifier
+						"static"
+				null?
+				Type / VoidType
+					QualifiedIdentifier
+						"return type"
+				"function name"
+				FormalParameters
+					Modifiers
+					Type
+						QualifiedIdentifier
+							"Paramaeter type"
+					null?
+					"variable name"
+					null?
+				null?
+				null?
+				Block
+					ReturnStatement
+						StringLiteral
+							"returned string"
+	ClassDeclaration
+    Modifiers
+      Modifier
+        "public / private"
+    "class name"
+    null?
+    null (extends)
+    null?
+    ClassBody
+      FunctionDeclaration
+        Modifiers
+          Modifier
+            "public / private"
+          Modifier(
+            "static"
+        null?
+        VoidType()
+        "function name",
+        FormalParameters(
+          FormalParameter(
+            Modifiers(),
+            Type(
+              QualifiedIdentifier(
+                "return type"
+              ),
+              Dimensions(
+                "["
+              )
+            ),
+            null?
+            "argument name",
+            null?
+        null?
+        null?
+        Block(
+          FieldDeclaration(
+            Modifiers(),
+            Type(
+              QualifiedIdentifier(
+                "type name"
+              ),
+              null?
+            ),
+            Declarators(
+              Declarator(
+                "lhs variable name",
+                null?
+                NewClassExpression(
+                  null?
+                  null?
+                  QualifiedIdentifier(
+                    "class name"
+                  ),
+                  Arguments(),
+                  null?

@@ -1,0 +1,25 @@
+[0m[[0minfo[0m] [0mRunning inputs.finalPresentationTest.FinalPresentationTest [0m
+[0m[[0mdebug[0m] [0mWaiting for threads to exit or System.exit to be called.[0m
+[0m[[0mdebug[0m] [0m  Classpath:[0m
+[0m[[0mdebug[0m] [0m	/Users/Will/Documents/Computer Science/Repositories/Object Oriented Programming/translator/translator-sea-lions/target/scala-2.11/test-classes[0m
+[0m[[0mdebug[0m] [0m	/Users/Will/Documents/Computer Science/Repositories/Object Oriented Programming/translator/translator-sea-lions/target/scala-2.11/classes[0m
+[0m[[0mdebug[0m] [0m	/Users/Will/Documents/Computer Science/Repositories/Object Oriented Programming/translator/translator-sea-lions/lib/javabdd.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/Will/Documents/Computer Science/Repositories/Object Oriented Programming/translator/translator-sea-lions/lib/javacc.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/Will/Documents/Computer Science/Repositories/Object Oriented Programming/translator/translator-sea-lions/lib/javancss.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/Will/Documents/Computer Science/Repositories/Object Oriented Programming/translator/translator-sea-lions/lib/JFlex.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/Will/Documents/Computer Science/Repositories/Object Oriented Programming/translator/translator-sea-lions/lib/jhbasic.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/Will/Documents/Computer Science/Repositories/Object Oriented Programming/translator/translator-sea-lions/lib/xtc-src.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/Will/Documents/Computer Science/Repositories/Object Oriented Programming/translator/translator-sea-lions/lib/xtc.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/Will/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/Will/.ivy2/cache/ch.qos.logback/logback-classic/jars/logback-classic-1.0.9.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/Will/.ivy2/cache/ch.qos.logback/logback-core/jars/logback-core-1.0.9.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/Will/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.2.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/Will/.ivy2/cache/com.novocode/junit-interface/jars/junit-interface-0.11.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/Will/.ivy2/cache/junit/junit/jars/junit-4.11.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/Will/.ivy2/cache/org.hamcrest/hamcrest-core/jars/hamcrest-core-1.3.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/Will/.ivy2/cache/org.scala-sbt/test-interface/jars/test-interface-1.0.jar[0m
+[0m[[0mdebug[0m] [0mWaiting for thread run-main-4 to terminate.[0m
+[0m[[0mdebug[0m] [0m	Thread run-main-4 exited.[0m
+[0m[[0mdebug[0m] [0mInterrupting remaining threads (should be all daemons).[0m
+[0m[[0mdebug[0m] [0mSandboxed run complete..[0m
+[0m[[0mdebug[0m] [0mExited with code 0[0m

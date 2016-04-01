@@ -1,0 +1,155 @@
+Useful functions and tips:
+
+    GNode.hasName(String)
+    	- checks whether the node has a name equal to the String
+
+    GNode.size()
+    	- returns the size of the node (how many children)
+
+    GNode.getString(int)
+    	- returns the String at index int of the GNode
+
+    GNode.getNode(int)
+    	- returns the Node at index int of the GNode
+
+    GNode.add(GNode)
+    	- adds the GNode to the GNode as a child
+
+    GNode.setLocation(Location)
+        - sets the file location for the node
+        - public Location(String var1, int var2, int var3) {
+              this.file = var1;
+              this.line = var2;
+              this.column = var3
+          }
+
+    Every GNode is Iterable<Object> so we can use for each loops to iterate over them.
+    Ex.
+                GNode test = GNode.create("testNode");
+
+                for (Object node : nodeTree){
+                    test.add(node);
+                }
+    This adds every node in nodeTree into the node test.
+
+    It could be useful to combine the "indexOf" method in GNode and the "dfs" method in NodeUtil to more
+    easily find the nodes we're looking for.
+
+    Printer.line and Printer.line(long)
+        - first one holds the current line number that the printer is at
+
+    Printer.p(String)
+        - prints the string without moving onto the next line
+
+    Printer.pln(String)
+        - prints the string and moves onto the next line
+
+    Printer.sep()
+        - prints a separator (//=============...)
+
+
+
+
+
+Stuff to Look Out For, To Do, and Reasonings/Notes
+
+Noted ->  When a class extends another class, there is an "Extension" node at index 3 of ClassDeclaration.
+
+Noted ->  When importing something, there is an ImportDeclaration, with QualifiedIdentifier at index 1 containing
+    the location of it (if it's "edu.nyu.oop", it will be three strings "edu", "nyu", "oop").
+
+Done ->  There can be field declarations inside blocks, need to find a way to not include that in the phase 2 AST
+
+Done ->  AstGenerate is really long. Separate out Object, String, and Class node creations from the code
+
+Done ->  In Randy's example ast, he has the "owner class" of some methods in String and Class be Object when they
+         should be String and Class. Make sure to fix that.
+
+Done ->  In the Class part of the javalanggenerate, the Modifiers in the DLFunctionDeclaration of isInstance has
+         Class and Object in them, which is wrong.
+
+    Don't add any private or static methods to an inherited class's vtable.
+        - Private methods are not accessible by the inheriting class, so they don't appear
+        - Static methods are accessible, but, if you make a method with the same signature, it will
+          "hide" the superclass implementation and use the subclass one. When doing something like
+          "Object o = new A()", o will then use Object's implementation of the static method (so it depends
+          on if it's invoked from the subclass or the superclass) as opposed to A's more specific one.
+
+Done ->  Each vTable method should have implicit "this" class as the first argument (Object, String, Class, Derived)
+
+Done ->  String should have a string as part of its argument in the constructor, along with a std::string data field
+
+Noted ->  In the vTable, the casting (ie (bool (*)(String <- "this", Object)) &__Object::equals) is casting the arguments
+    of the function in question, due to the implicit "this" in Java.
+
+Done ->  We don't need to pass in parent node in javalanggenerate string and class.
+
+Noted ->  Why do we not want to call "visit" for makeDataLayout and makeVTable in AstGenerate? Because we don't
+          want the field/constructor/method declarations from farther into the AST. Anything farther in is in
+          the "Block" portion of the AST, which contains the implementation (which is not necessary for the
+          header file).
+
+    Classes don't have anything in the AST to point us to the direct parent class. Probably should add that
+    somewhere in the AST.
+
+Noted ->  Since the Visitor visits node in a depth first manner, we can set some variables for use through one
+          subtree before resetting it the next time it visits that top level node
+
+Noted ->  It seems like the Printer (and all output streams/writers) cannot move freely within a file, and it is
+          therefore impossible to edit the output files on the fly. We can work around this by either
+            - rewriting the file each time we need to move around
+Did this -> - do it entirely sequentially, such that we do the forward declarations first, then the typedef, and
+              so on.
+            - another way we can do it is by saving what needs to be printed into a mutable List of some sort
+              (such as a string array with each element being a line) and then using printer on the list
+
+Done ->  When a class has no constructor in Java, a default empty constructor is created automatically with the
+         only thing being a call to super(). Make sure that all no constructor classes have this empty constructor.
+
+Done ->  Class methods don't have the right arguments, need to fix (getName, getSuperclass, isInstance)
+
+Not for 2/3 ->  Do we need to set fields equal to their declarators in the header file? (ie String name = "something")
+
+    Should the main method be translated directly to "int main()" instead of keeping the modifiers and String
+    args?
+
+Done ->  Class __isa should be owned by the "this" class
+
+Done ->  getClass() in String_VT should be casted to the type when inherited
+
+Done ->  The order of the methods in the data layout of javalang is kind of wrong, should fix if we have time.
+
+Done ->  The getSuperClass() method in Class_VT is not present, probably didn't add it correctly in javalanggenerate.
+
+    Should probably think of new namespace names besides java and lang.
+
+Done ->  It seems like for the "main" class, we probably don't need to implement the header for it, although it probably
+         doesn't hurt to do so.
+
+Done ->  In the header Ast, we didn't implement implicit "this" for the first argument of java.lang classes, but the code
+         that does it fixes that when printing. If we have time, we should change all the java.lang classes to be correct.
+
+    In terms of static methods, we can just not add them to the vtable but still have their implementation, so that it is
+    only a part of the data layout and nothing more. This prevents inheritance (which it shouldn't).
+
+Done ->  Public and private fields don't work in C++, syntax is different (need public: or private:)
+
+    Only constructors need names for parameters, functions don't
+
+    For static methods, we need to find a way to show that it is truly static in the header, rather than just a regular
+    method, so that we can know when to call from data layout and when to call from the vtable.
+
+    Need to get rid of ->data for everything other than Strings
+
+    Need to mutate the Arguments under CallExpression correctly so that the thing under PrimaryIdentifier is the first argument
+    in Arguments
+
+    Make it so that the cout recognizes the difference between 1+1 and "1+1" when printing ("2" vs "1+1")
+
+    I have no idea what's wrong with input 6. There is an architecture error x86_64, perhaps how we're doing new __String("B")
+    is incorrect?
+
+    In constructors, we have a "ThisExpression" in SelectionExpression (example in test004), we can maybe utilize that for
+    test006 where we need to differentiate between "this" and a just made field.
+
+    In test004, if there is a ThisExpression, that means this is used.

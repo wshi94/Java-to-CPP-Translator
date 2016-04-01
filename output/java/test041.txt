@@ -1,0 +1,3 @@
+A.m(A, Object)
+C.m(C, C)
+A.m(Object, A)

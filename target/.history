@@ -1,0 +1,500 @@
+cpp
+runxtc -printPhase4Ast src/test/java/inputs/test007/Test007.java
+runxtc -translate src/test/java/inputs/test006/Test006.java
+cpp
+runxtc -printPhase4Ast src/test/java/inputs/test006/Test006.java
+runxtc -translate src/test/java/inputs/test006/Test006.java
+cpp
+runxtc -translate src/test/java/inputs/test008/Test008.java
+cpp
+runxtc -printPhase4Ast src/test/java/inputs/test008/Test008.java
+runxtc -translate src/test/java/inputs/test008/Test008.java
+cpp
+runxtc -translate src/test/java/inputs/test008/Test008.java
+cpp
+runxtc -translate src/test/java/inputs/test008/Test008.java
+cpp
+runxtc -translate src/test/java/inputs/test008/Test008.java
+cpp
+runxtc -translate src/test/java/inputs/test008/Test008.java
+cpp
+runxtc -translate src/test/java/inputs/test008/Test008.java
+cpp
+runxtc -translate src/test/java/inputs/test008/Test008.java
+cpp
+test:run-main inputs.test008.Test008
+runxtc -translate src/test/java/inputs/test008/Test008.java
+runxtc -translate src/test/java/inputs/test009/Test009.java
+runxtc -printPhase4Ast src/test/java/inputs/test009/Test009.java
+runxtc -translate src/test/java/inputs/test009/Test009.java
+cpp
+test:run-main inputs.test009.Test009
+runxtc -translate src/test/java/inputs/test009/Test009.java
+test:run-main inputs.test009.Test009
+cpp
+test:run-main inputs.test009.Test009
+runxtc -translate src/test/java/inputs/test009/Test009.java
+cpp
+runxtc -translate src/test/java/inputs/test009/Test009.java
+cpp
+runxtc -translate src/test/java/inputs/test006/Test006.java
+runxtc -translate src/test/java/inputs/test009/Test009.java
+cpp
+runxtc -translate src/test/java/inputs/test009/Test009.java
+cpp
+runxtc -translate src/test/java/inputs/test010/Test010.java
+cpp
+runxtc -printPhase4Ast src/test/java/inputs/test010/Test010.java
+runxtc -translate src/test/java/inputs/test010/Test010.java
+cpp
+runxtc -translate src/test/java/inputs/test006/Test006.java
+runxtc -translate src/test/java/inputs/test008/Test008.java
+runxtc -printPhase4Ast src/test/java/inputs/test008/Test008.java
+runxtc -translate src/test/java/inputs/test007/Test007.java
+cpp
+runxtc -translate src/test/java/inputs/test008/Test008.java
+cpp
+runxtc -translate src/test/java/inputs/test008/Test008.java
+cpp
+runxtc -translate src/test/java/inputs/test010/Test010.java
+cpp
+runxtc -translate src/test/java/inputs/test010/Test010.java
+runxtc -printPhase4Ast src/test/java/inputs/test010/Test010.java
+sbt
+runxtc -translate src/test/java/inputs/test015/Test015.java
+cpp
+runxtc -printPhase4Ast src/test/java/inputs/test015/Test015.java
+runxtc -translate src/test/java/inputs/test015/Test015.java
+runxtc -translate src/test/java/inputs/test010/Test010.java
+cpp
+test:run-main inputs.test010.Test010
+runxtc -printPhase4Ast src/test/java/inputs/test010/Test010.java
+runxtc -translate src/test/java/inputs/test010/Test010.java
+cpp
+runxtc -translate src/test/java/inputs/test010/Test010.java
+ccpp
+cpp
+runxtc -translate src/test/java/inputs/test011/Test011.java
+cpp
+test:run-main inputs.test011.Test011
+runxtc -translate src/test/java/inputs/test012/Test012.java
+cpp
+test:run-main inputs.test012.Test012
+runxtc -translate src/test/java/inputs/test014/Test014.java
+cpp
+runxtc -printPhase4Ast src/test/java/inputs/test014/Test014.java
+runxtc -translate src/test/java/inputs/test014/Test014.java
+cpp
+runxtc -translate src/test/java/inputs/test014/Test014.java
+cpp
+test:run-main inputs.test014.Test014
+runxtc -translate src/test/java/inputs/test014/Test014.java
+cpp
+runxtc -translate src/test/java/inputs/test015/Test015.java
+cpp
+runxtc -printPhase4Ast src/test/java/inputs/test015/Test015.java
+runxtc -translate src/test/java/inputs/test015/Test015.java
+cpp
+runxtc -translate src/test/java/inputs/test015/Test015.java
+cpp
+runxtc -translate src/test/java/inputs/test015/Test015.java
+cpp
+test:run-main inputs.test015.Test015
+runxtc -translate src/test/java/inputs/test015/Test015.java
+cpp
+runxtc -translate src/test/java/inputs/test016/Test016.java
+runxtc -translate src/test/java/inputs/test015/Test015.java
+cpp
+runxtc -translate src/test/java/inputs/test017/Test017.java
+runxtc -printPhase4Ast src/test/java/inputs/test017/Test017.java
+runxtc -translate src/test/java/inputs/test017/Test017.java
+cpp
+runxtc -translate src/test/java/inputs/test017/Test017.java
+cpp
+runxtc -translate src/test/java/inputs/test018/Test018.java
+runxtc -printPhase4Ast src/test/java/inputs/test018/Test018.java
+runxtc -translate src/test/java/inputs/test018/Test018.java
+test:run-main inputs.test018.Test018
+runxtc -translate src/test/java/inputs/test018/Test018.java
+cpp
+test:run-main inputs.test018.Test018
+runxtc -translate src/test/java/inputs/test018/Test018.java
+cpp
+runxtc -translate src/test/java/inputs/test018/Test018.java
+cpp
+runxtc -translate src/test/java/inputs/test018/Test018.java
+cpp
+runxtc -translate src/test/java/inputs/test018/Test018.java
+cpp
+runxtc -printPhase4Ast src/test/java/inputs/test018/Test018.java
+runxtc -translate src/test/java/inputs/test018/Test018.java
+cpp
+runxtc -translate src/test/java/inputs/test018/Test018.java
+cpp
+runxtc -translate src/test/java/inputs/test018/Test018.java
+cpp
+runxtc -translate src/test/java/inputs/test018/Test018.java
+runxtc -translate src/test/java/inputs/test006/Test006.java
+cpp
+runxtc -printPhase4Ast src/test/java/inputs/test006/Test006.java
+runxtc -translate src/test/java/inputs/test006/Test006.java
+cpp
+runxtc -translate src/test/java/inputs/test006/Test006.java
+cpp
+runxtc -translate src/test/java/inputs/test019/Test019.java
+cpp
+runxtc -translate src/test/java/inputs/test020/Test020.java
+cpp
+runxtc -printPhase4Ast src/test/java/inputs/test020/Test020.java
+est/java/inputs/test020/Test020.java ...
+CompilationUnit(
+  NamespaceDeclaration(
+    QualifiedIdentifier(
+      "inputs",
+      "test020"
+    )
+  ),
+  ClassDeclaration(
+    Modifiers(),
+    "A",
+    null,
+    ClassBody(
+      MethodDeclaration(
+        Modifiers(
+          Modifier(
+            "static"
+          )
+        ),
+        null,
+        Type(
+          PrimitiveType(
+            "int"
+          ),
+          null
+        ),
+        "x",
+        FormalParameters(),
+        null,
+        Block(
+          ReturnStatement(
+            IntegerLiteral(
+              "4"
+            )
+          )
+        )
+      )
+    )
+  ),
+  ClassDeclaration(
+    Modifiers(
+      Modifier(
+        "public"
+      )
+    ),
+    "Test020",
+    null,
+    ClassBody(
+      MethodDeclaration(
+        Modifiers(
+          Modifier(
+            "public"
+          ),
+          Modifier(
+            "static"
+          )
+        ),
+        null,
+        VoidType(),
+        "main",
+        FormalParameters(
+          FormalParameter(
+            Modifiers(),
+            Type(
+              QualifiedIdentifier(
+                "String"
+              ),
+              Dimensions(
+                "["
+              )
+            ),
+            null,
+            "args",
+            null
+          )
+        ),
+        null,
+        Block(
+          FieldDeclaration(
+            Modifiers(),
+            Type(
+runxtc -printPhase4Ast src/test/java/inputs/test020/Test020.java
+runxtc -translate src/test/java/inputs/test020/Test020.java
+test:run-main inputs.test018.Test018
+test:run-main inputs.test019.Test019
+runxtc -printPhase4Ast src/test/java/inputs/test020/Test020.java
+cpp
+test:run-main inputs.test020.Test020
+runxtc -printPhase2Ast src/test/java/inputs/test020/Test020.java
+runxtc -printPhase2Ast src/test/java/inputs/test01/Test011.java
+runxtc -printPhase2Ast src/test/java/inputs/test011/Test011.java
+runxtc -printPhase2Ast src/test/java/inputs/test020/Test020.java
+runxtc -translate src/test/java/inputs/test020/Test020.java
+cpp
+runxtc -translate src/test/java/inputs/test020/Test020.java
+cpp
+runxtc -translate src/test/java/inputs/test020/Test020.java
+cpp
+runxtc -printPhase4Ast src/test/java/inputs/test020/Test020.java
+runxtc -translate src/test/java/inputs/test020/Test020.java
+cpp
+runxtc -translate src/test/java/inputs/test020/Test020.java
+cpp
+runxtc -translate src/test/java/inputs/test020/Test020.java
+cpp
+runxtc -translate src/test/java/inputs/test001/Test001.java
+cpp
+runxtc -translate src/test/java/inputs/test001/Test001.java
+cpp
+runxtc -translate src/test/java/inputs/test017/Test017.java
+cpp
+runxtc -translate src/test/java/inputs2/test021/Test021.java
+cpp
+runxtc -printPhase4Ast src/test/java/inputs2/test021/Test021.java
+runxtc -translate src/test/java/inputs2/test021/Test021.java
+cpp
+runxtc -translate src/test/java/inputs/test017/Test017.java
+cpp
+test:run-main inputs.test017.Test017
+runxtc -translate src/test/java/inputs/test014/Test014.java
+runxtc -printPhase4Ast src/test/java/inputs2/test028/Test028.java
+runxtc -translate src/test/java/inputs/test014/Test014.java
+cpp
+runxtc -translate src/test/java/inputs2/test028/Test028.java
+cpp
+runxtc -translate src/test/java/inputs/test017/Test017.java
+runxtc -printPhase4Ast src/test/java/inputs/test017/Test017.java
+cpp
+runxtc -translate src/test/java/inputs2/test022/Test022.java
+runxtc -printPhase4Ast src/test/java/inputs2/test022/Test022.java
+runxtc -printPhase4Ast src/test/java/inputs/test014/Test014.java
+test:run-main inputs.test025.Test025
+runxtc -translate src/test/java/inputs/test025/Test025.java
+cpp
+runxtc -translate src/test/java/inputs/test025/Test025.java
+cpp
+runxtc -translate src/test/java/inputs/test025/Test025.java
+cpp
+runxtc -printPhase4Ast src/test/java/inputs/test025/Test025.java
+runxtc -translate src/test/java/inputs/test025/Test025.java
+runxtc -translate src/test/java/inputs2/test022/Test022.java
+runxtc -printPhase4Ast src/test/java/inputs2/test022/Test022.java
+runxtc -translate src/test/java/inputs2/test022/Test022.java
+runxtc -printPhase4Ast src/test/java/inputs/test001/Test001.java
+runxtc -translate src/test/java/inputs2/test022/Test022.java
+runxtc -printPhase4Ast src/test/java/inputs2/test022/Test022.java
+runxtc -translate src/test/java/inputs2/test022/Test022.java
+runxtc -printPhase4Ast src/test/java/inputs2/test022/Test022.java
+runxtc -translate src/test/java/inputs2/test022/Test022.java
+cpp
+runxtc -translate src/test/java/inputs2/test023/Test023.java
+cpp
+runxtc -translate src/test/java/inputs2/test024/Test024.java
+runxtc -printPhase4Ast src/test/java/inputs2/test024/Test024.java
+cpp
+runxtc -translate src/test/java/inputs2/test024/Test024.java
+cpp
+runxtc -translate src/test/java/inputs/test009/Test009.java
+cpp
+runxtc -translate src/test/java/inputs2/test024/Test024.java
+cpp
+runxtc -translate src/test/java/inputs2/test024/Test024.java
+cpp
+runxtc -translate src/test/java/inputs2/test022/Test022.java
+runxtc -translate src/test/java/inputs2/test024/Test024.java
+cpp
+runxtc -translate src/test/java/inputs2/test024/Test024.java
+cpp
+runxtc -translate src/test/java/inputs2/test025/Test025.java
+runxtc -translate src/test/java/inputs2/test026/Test026.java
+runxtc -printPhase4Ast src/test/java/inputs2/test025/Test025.java
+runxtc -printPhase1Ast src/test/java/inputs2/test025/Test025.java
+runxtc -translate src/test/java/inputs2/test025/Test025.java
+runxtc -translate src/test/java/inputs2/test027/Test027.java
+runxtc -translate src/test/java/inputs2/test028/Test028.java
+runxtc -translate src/test/java/inputs2/test022/Test022.java
+runxtc -translate src/test/java/inputs2/test029/Test029.java
+cpp
+runxtc -translate src/test/java/inputs2/test022/Test022.java
+cpp
+runxtc -translate src/test/java/inputs2/test024/Test024.java
+cpp
+runxtc -translate src/test/java/inputs2/test024/Test024.java
+cpp
+runxtc -translate src/test/java/inputs2/test024/Test024.java
+cpp
+test:run-main inputs.test024.Test024
+test:run-main inputs2.test024.Test024
+runxtc -translate src/test/java/inputs/test014/Test014.java
+cpp
+runxtc -translate src/test/java/inputs2/test024/Test024.java
+runxtc -printPhase1Ast src/test/java/inputs2/test024/Test024.java
+runxtc -translate src/test/java/inputs2/test024/Test024.java
+runxtc -printPhase4Ast src/test/java/inputs2/test024/Test024.java
+runxtc -translate src/test/java/inputs2/test024/Test024.java
+cpp
+runxtc -translate src/test/java/inputs2/test024/Test024.java
+cpp
+runxtc -translate src/test/java/inputs2/test024/Test024.java
+cpp
+runxtc -translate src/test/java/inputs2/test024/Test024.java
+cpp
+runxtc -translate src/test/java/inputs2/test025/Test025.java
+runxtc -printPhase1Ast src/test/java/inputs2/test025/Test025.java
+runxtc -translate src/test/java/inputs2/test025/Test025.java
+runxtc -translate src/test/java/inputs/test009/Test009.java
+runxtc -printPhase4Ast src/test/java/inputs/test009/Test009.java
+runxtc -translate src/test/java/inputs2/test025/Test025.java
+runxtc -printPhase4Ast src/test/java/inputs2/test025/Test025.java
+runxtc -translate src/test/java/inputs2/test025/Test025.java
+pp
+cpp
+runxtc -translate src/test/java/inputs2/test024/Test024.java
+cpp
+runxtc -translate src/test/java/inputs2/test025/Test025.java
+cpp
+runxtc -translate src/test/java/inputs2/test025/Test025.java
+cpp
+test:run-main inputs2.test025.Test025
+cpp
+test:run-main inputs2.test025.Test025
+cpp
+runxtc -printPhase1Ast src/test/java/inputs2/test025/Test025.java
+runxtc -translate src/test/java/inputs2/test025/Test025.java
+runxtc -printPhase4Ast src/test/java/inputs2/test025/Test025.java
+runxtc -translate src/test/java/inputs2/test025/Test025.java
+runxtc -printPhase4Ast src/test/java/inputs2/test025/Test025.java
+runxtc -translate src/test/java/inputs2/test025/Test025.java
+runxtc -printPhase4Ast src/test/java/inputs2/test025/Test025.java
+runxtc -translate src/test/java/inputs2/test025/Test025.java
+cpp
+runxtc -translate src/test/java/inputs2/test024/Test024.java
+cpp
+runxtc -translate src/test/java/inputs2/test024/Test024.java
+cpp
+runxtc -translate src/test/java/inputs2/test025/Test025.java
+cpp
+runxtc -translate src/test/java/inputs2/test025/Test025.java
+cpp
+runxtc -translate src/test/java/inputs2/test025/Test025.java
+runxtc -printPhase4Ast src/test/java/inputs2/test025/Test025.java
+runxtc -translate src/test/java/inputs2/test025/Test025.java
+cpp
+runxtc -translate src/test/java/inputs2/test024/Test024.java
+cpp
+runxtc -translate src/test/java/inputs/test008/Test008.java
+cpp
+runxtc -translate src/test/java/inputs/test008/Test008.java
+cpp
+runxtc -translate src/test/java/inputs/test008/Test008.java
+cpp
+runxtc -translate src/test/java/inputs/test008/Test008.java
+cpp
+runxtc -translate src/test/java/inputs/test008/Test008.java
+cpp
+runxtc -translate src/test/java/inputs2/test026/Test026.java
+cpp
+test:run-main inputs2.test026.Test026
+runxtc -translate src/test/java/inputs2/test027/Test027.java
+cpp
+test:run-main inputs2.test027.Test027
+runxtc -translate src/test/java/inputs2/test028/Test028.java
+cpp
+test:run-main inputs2.test028.Test028
+cpp
+runxtc -translate src/test/java/inputs2/test029/Test029.java
+cpp
+runxtc -translate src/test/java/inputs2/test028/Test028.java
+cpp
+test:run-main inputs2.test028.Test028
+cpp
+runxtc -translate src/test/java/inputs2/test025/Test025.java
+cpp
+runxtc -translate src/test/java/inputs2/test025/Test025.java
+cpp
+runxtc -translate src/test/java/inputs2/test025/Test025.java
+cpp
+runxtc -translate src/test/java/inputs2/test028/Test028.java
+cpp
+runxtc -translate src/test/java/inputs2/test046/Test046.java
+runxtc -translate src/test/java/inputs2/test022/Test022.java
+cpp
+test:run-main inputs2.test022.Test022
+runxtc -translate src/test/java/inputs2/test022/Test022.java
+runxtc -printPhase4Ast src/test/java/inputs2/test022/Test022.java
+runxtc -translate src/test/java/inputs2/test022/Test022.java
+cpp
+runxtc -translate src/test/java/inputs2/test022/Test022.java
+runxtc -printPhase4Ast src/test/java/inputs2/test022/Test022.java
+runxtc -translate src/test/java/inputs2/test022/Test022.java
+cpp
+runxtc -translate src/test/java/inputs2/test022/Test022.java
+cpp
+test:run-main inputs2.test022.Test022
+runxtc -translate src/test/java/inputs2/test022/Test022.java
+runxtc -translate src/test/java/inputs2/test023/Test023.java
+cpp
+runxtc -translate src/test/java/inputs2/test024/Test024.java
+cpp
+runxtc -translate src/test/java/inputs2/test023/Test023.java
+runxtc -translate src/test/java/inputs2/test026/Test026.java
+cpp
+test:run-main inputs2.test026.Test026
+test:run-main inputs2.test027.Test027
+runxtc -translate src/test/java/inputs2/test027/Test027.java
+cpp
+runxtc -translate src/test/java/inputs2/test023/Test023.java
+cpp
+runxtc -translate src/test/java/inputs2/test032/Test032.java
+cpp
+runxtc -printPhase2Ast src/test/java/inputs2/test032/Test032.java
+runxtc -translate src/test/java/inputs2/test032/Test032.java
+runxtc -printPhase2Ast src/test/java/inputs2/test032/Test032.java
+runxtc -printPhase1Ast src/test/java/inputs2/test032/Test032.java
+runxtc -translate src/test/java/inputs2/test032/Test032.java
+runxtc -printPhase2Ast src/test/java/inputs2/test032/Test032.java
+runxtc -translate src/test/java/inputs2/test032/Test032.java
+runxtc -printPhase4Ast src/test/java/inputs2/test032/Test032.java
+runxtc -translate src/test/java/inputs2/test032/Test032.java
+runxtc -printPhase4Ast src/test/java/inputs2/test032/Test032.java
+runxtc -translate src/test/java/inputs2/test032/Test032.java
+runxtc -printPhase4Ast src/test/java/inputs2/test032/Test032.java
+runxtc -translate src/test/java/inputs2/test032/Test032.java
+coo
+cpp
+runxtc -translate src/test/java/inputs2/test026/Test026.java
+cpp
+runxtc -translate src/test/java/inputs2/test026/Test026.java
+cpp
+runxtc -translate src/test/java/inputs2/test026/Test026.java
+cpp
+runxtc -translate src/test/java/inputs2/test026/Test026.java
+cpp
+runxtc -translate src/test/java/inputs2/test027/Test027.java
+cpp
+runxtc -translate src/test/java/inputs2/test027/Test027.java
+cpp
+runxtc -printPhase4Ast src/test/java/inputs2/test027/Test027.java
+runxtc -translate src/test/java/inputs2/test027/Test027.java
+cpp
+runxtc -translate src/test/java/inputs2/test027/Test027.java
+cpp
+runxtc -translate src/test/java/inputs/finalPresentationTest/FinalPresentationTest.java
+cpp
+test:run-main inputs.finalPresentationTest.FinalPresentationTest
+runxtc -translate src/test/java/inputs/finalPresentationTest/FinalPresentationTest.java
+cpp
+runxtc -translate src/test/java/inputs/finalPresentationTest/FinalPresentationTest.java
+cpp
+test:run-main inputs.finalPresentationTest.FinalPresentationTest
+runxtc -translate src/test/java/inputs/finalPresentationTest/FinalPresentationTest.java
+cpp

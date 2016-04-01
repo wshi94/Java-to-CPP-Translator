@@ -1,0 +1,6 @@
+A.m(int)
+A.m(A)
+A.m(double)
+A.m(Object)
+A.m(A, Object)
+A.m(Object, Object)
