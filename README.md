@@ -1,7 +1,12 @@
 Translator
 ----------
 
-Team Sea Lions
+Team Sea Lions:
+ - William Shi
+ - Ricardo Guntur
+ - Huynh Nguyen
+ - Arthur Chang
+ - Evan Johnson
 
 Currently, the translator supports methods including println(), field declarations, simple functions, as well as
 inheritance and method overriding.
